@@ -15,7 +15,7 @@ int main() {
     cout << a - b << "\n";
     cout << (long long)a * b << "\n";
     if(a == 0 || b == 0) cout << "INVALID";
-    else cout << fixed << setprecision(4) << a / b;
+    else cout << fixed << setprecision(4) << (double)a / b;
 
     return 0;
 }
